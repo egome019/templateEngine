@@ -46,7 +46,7 @@
   
   ## Demonstration
   [Click here](https://drive.google.com/file/d/12GXgN9qMARc4g3CGjBrcQz0oxzUI9_r9/view) to view a short video demonstrating the process of answering the prompts in the terminal.
-  ![](assets/teamWebPageTerminal.png)
+  ![](assets/teamWebpageTerminal.png)
   ![](assets/teamWebpage.png)
 
   
