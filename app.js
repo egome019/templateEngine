@@ -101,7 +101,6 @@ function managerPrompt() {
     .then(managerQs => {
         const manager = new Manager(managerQs.name, managerQs.id, managerQs.email, managerQs.officeNumber);
         employee.push(manager);
-        console.log(employee)
         startPrompt()
     })
 
@@ -113,7 +112,6 @@ function engineerPrompt() {
     .then(engineerQs => {
         const engineer = new Engineer(engineerQs.name, engineerQs.id, engineerQs.email, engineerQs.github);
         employee.push(engineer);
-        console.log(employee)
         startPrompt()
 
     })
@@ -125,7 +123,6 @@ function internPrompt() {
     .then(internQs => {
         const intern = new Intern(internQs.name, internQs.id, internQs.email, internQs.school);
         employee.push(intern);
-        console.log(employee);
         startPrompt();
     })
 }
