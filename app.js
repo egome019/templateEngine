@@ -149,10 +149,7 @@ function startPrompt() {
 
             case "I don't need to add anymore team members at this time.":
                 const htmlTemp = render(employee);
-                fs.writeFile("team.html", htmlTemp, error => {
-                    if (error) throw error
-                })
-        
+                fs.writeFileSync(outputPath, htmlTemp)
                 break;
         }
     })
