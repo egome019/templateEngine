@@ -34,13 +34,13 @@ const manQuestions = [
     },
     {
         type: "input",
-        message: "What is your Manager's id?",
-        name: "id"
+        message: "What is your Manager's email?",
+        name: "email"
     },
     {
         type: "input",
-        message: "What is your Manager's email?",
-        name: "email"
+        message: "What is your Manager's id?",
+        name: "id"
     },
     {
         type: "input",
@@ -99,7 +99,7 @@ function managerPrompt() {
     inquirer.prompt(manQuestions)
 
     .then(managerQs => {
-        const manager = new Manager(managerQs.name, managerQs.id, managerQs.email,managerQs.officeNumber);
+        const manager = new Manager(managerQs.name, managerQs.id, managerQs.email, managerQs.officeNumber);
         employee.push(manager);
         console.log(employee)
         startPrompt()
