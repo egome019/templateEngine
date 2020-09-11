@@ -26,7 +26,7 @@
 
   ## Usage
 
-  Just be careful.
+  Enter node app.js in the command-line and answer the questions based on the role you choose until all members in your team are accounted for. Then select I don't need anymore team members at this time, and the html file will be generated.
 
   ## License
 
@@ -43,5 +43,10 @@
   ## Questions
 
   If you have any questions about the repo, open an issue or contact me directly at egomezfax19@gmail.com. You can find more of my work at [www.github.com/egome019](https://github.com/egome019)
+  
+  ## Demonstration
+  [Click here](https://drive.google.com/file/d/12GXgN9qMARc4g3CGjBrcQz0oxzUI9_r9/view) to view a short video demonstrating the process of answering the prompts in the terminal.
+  ![](assets/teamWebpageTerminal.png)
+  ![](assets/teamWebpage.png)
 
   
